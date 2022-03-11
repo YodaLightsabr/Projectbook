@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@yodalightsabr/db": "^1.0.1",
+    "express": "^4.17.3"
+  },
+  "name": "projectbook",
+  "version": "1.0.0",
+  "description": "A project manager for MacOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yodalightsabr/projectbook.git"
+  },
+  "keywords": [
+    "projectbook",
+    "project-manager",
+    "macos",
+    "projects"
+  ],
+  "author": "YodaLightsabr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yodalightsabr/projectbook/issues"
+  },
+  "homepage": "https://github.com/yodalightsabr/projectbook#readme",
+  "type": "module"
+}
