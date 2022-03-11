@@ -20,6 +20,10 @@ function detectArgument (arg = '') {
     return false;
 }
 
+function getProjects (query = { $equals: {} }) {
+    return db.collection('projects').findAll(query);
+}
+
 let isWeb = false;
 let isWebServerRunning = false;
 
@@ -36,9 +40,11 @@ if (detectArgument('web')) {
         isWebServerRunning = true;
         try {
             await open(`http://localhost:${port}`);
-            console.log('Opened Projectbook in your default browser.');
+            console.log('Opened Projectbook in your default browser. ');
         } catch (err) {
             console.log(`Projectbook couldn't open your browser automatically. Try clicking on or navigating to this link:\n\nhttp://localhost:${port}`)
         }
     });
+} else {
+    console.log(getProjects());
 }
