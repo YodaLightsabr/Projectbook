@@ -7,6 +7,7 @@ I'm hoping Projectbook will have:
 - A web interface for people who aren't that familiar with the command line
 - Project metadata, including description, website, remote repository URL, and tags
 - Automatic configuration for commands to open your favorite IDE, text editor, or other tool when you start a project
+- Date information to help remind you of old projects you might've forgotten about
 
 ## Current Features
 - Nothing
